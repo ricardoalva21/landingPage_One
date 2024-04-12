@@ -14,7 +14,7 @@ const NavBar = () => {
       <Toolbar>
         <Logo src="/ruta/al/logo.png" alt="Logo de la empresa" />
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          Nombre de la Empresa
+          Mi Empresa
         </Typography>
         <Button component={Link} to="/about" color="inherit">Quiénes Somos</Button>
         <Button component={Link} to="/jobs" color="inherit">Trabajos</Button>
